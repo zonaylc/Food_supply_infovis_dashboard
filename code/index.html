@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="src/style.css">
+</head>
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<div id="dashboard-header">
+    <h3>The Food We Grow</h3>
+</div>    
+<div id="dashboard-container">
+    <div id="year-slider-container">
+        <label for="range">Year</label>
+        <input id="year-slider" type="range" step="1"/><br>   
+        Show <select id="series-picker"></select> in </span><span id="year-label"></span>     
+    </div>
+
+    <div id="countrylist-container">
+        <div id="title">Ranking</div>
+        <div id="list">
+
+        </div>
+    </div>
+    <div class="color-lump" id="choropleth-container">
+        <div class="tooltip hidden">
+            <div class="country"></div>
+            <span class="value"></span><span class="unit"></span>
+        </div>
+    </div>
+    <div id="singlebar-container"></div>
+    <div class="color-lump" id="barchart-container"></div>  
+    <div class="footer" id="streamgraph-container"></div>   
+</div>
+<div id="loading-message">Loading dataset...</div>
+
+<script type="module" src="src/main.js"></script>
+<script type="module" src="src/choropleth.js"> </script>
+<script type="module" src="src/singleBar.js"> </script>
+<script type="module" src="src/barChart.js"> </script>

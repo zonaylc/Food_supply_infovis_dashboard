@@ -1,0 +1,5 @@
+code/src/.vscode
+code/src/.editorconfig
+code/data/.ipynb_checkpoints
+code/data/balances_new.csv
+code/data/balances_old.csv
