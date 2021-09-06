@@ -1,27 +1,4 @@
 # InfoVis Lab Project
-Submission template for the InfoVis lab project at the Johannes Kepler University Linz.
-
-**Explanation:**
-This `README.md` needs to be pushed to Github for each of the 3 delivery dates.
-For every submission change/extend the corresponding sections by replacing the [TODO] markers.
-*In order to meet the deadlines make sure you push everything to your Github repository.*
-For more details see [*Moodle page*](https://moodle.jku.at/jku/course/view.php?id=9291).
-
-**Tip:** Make yourself familiar with [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-# Submission due on 22.04.2020
-
-## General Information
-
-**Project Name:** FAO World Food Balances
-
-**Group Members**
-
-| Student ID    | First Name  | Last Name      |
-| --------------|-------------|----------------|
-| 01456336      | Elias       | Gander         |
-| 01157429      | Florian     | Kiesl          |
-| 11929905      | Yi-Ling     | Chen           |
 
 ## Dataset
 
@@ -70,7 +47,6 @@ Another dimension that might interest users is the development of various metric
 Moreover, an interisting aspect for users is to compare the elements of a special item among countries over the years.
 Finally different users will probably lay their focus on different areas of food production and utilization. Some might be more interested in the trade aspect, that is, import and export, other more on the agricultural aspect, i.e., production and feed/seed usage.
 
-# Submission due on 13.05.2020
 
 ## Proposed Dashboard Solution
 
@@ -102,10 +78,8 @@ Finally different users will probably lay their focus on different areas of food
     
     * A line chart is a good choice to show the changes over time and see if there is a trend recognizable.
  
-* Add sketches or images if possible
-![First version of our dashboard](./dashboard_v1.png)
 
-# Submission due on 17.06.2020
+
 
 ## Implementation Details
 
